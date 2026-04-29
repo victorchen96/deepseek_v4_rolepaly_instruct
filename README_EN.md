@@ -2,7 +2,7 @@
 
 > **Notes**
 > - This document describes the **special control instructions** for DeepSeek-V4 roleplay, used to switch the chain of thought style in thinking mode
-> - **Scope of Application**: **Expert Mode** on DeepSeek official APP / web client, as well as the API for `deepseek-v4-flash` and `deepseek-v4-pro`. Not supported in the web Quick Mode for now
+> - **Scope of Application**: **Expert Mode** on DeepSeek official APP / web client, as well as the API for `deepseek-v4-flash` and `deepseek-v4-pro`. Not supported in the  APP / web Quick Mode for now
 > - **Probabilistic Output**: 100% trigger rate cannot be guaranteed at present, but it can stably increase the probability of the expected format appearing. If it does not take effect once, you can roll multiple times
 
 
