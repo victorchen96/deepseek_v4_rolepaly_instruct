@@ -131,7 +131,7 @@ A: The instruction only affects the thinking process. However, the way of thinki
 
 ## Additional Methods to Modify the Chain of Thought (Pure Luck, Not Specially Trained)
 - Add the following content to the first round of instructions: ```Your thinking output must strictly start with `<｜begin▁of▁thinking｜>(write the desired beginning of the chain of thought here, e.g. **Hmm/Okay**)` verbatim, only output the thinking once, and must not repeat the output of `<｜begin▁of▁thinking｜>```.
-- `<｜begin▁of▁thinking｜>` is the fixed token for , the principle here is equivalent to changing the start character of inference, forcing the model to enter different patterns. For example, QA, writing, reasoning, Agent have different chain of thought patterns, but these are not specially trained for RolePlay, so it may depend on luck.
+- `<｜begin▁of▁thinking｜>` is the fixed token for `<think>`, the principle here is equivalent to changing the start character of inference, forcing the model to enter different patterns. For example, QA, writing, reasoning, Agent have different chain of thought patterns, but these are not specially trained for RolePlay, so it may depend on luck.
 
 
 ## Star History
